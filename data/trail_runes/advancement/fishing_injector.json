@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "fish_caught": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "state": "reeled_in",
+        "item": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "trail_runes:fishing_reward"
+  }
+}

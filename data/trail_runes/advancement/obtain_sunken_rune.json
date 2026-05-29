@@ -1,0 +1,39 @@
+{
+  "parent": "trail_runes:collection/all_runes",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:custom_data": { "rune": "sunken" },
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTc3YzFmYzkzMjE2ZTk2ZDQzNWNmOTYyZTExNzNkZThkMWEyNDliNjQ0ODk0ZDcyNjc2ZWJhNzMyZmNkNTZlNyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Sunken Rune",
+    "description": "Rarely dropped from fishing",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_rune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{rune:\"sunken\"}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
