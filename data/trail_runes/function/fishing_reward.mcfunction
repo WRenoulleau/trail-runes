@@ -1,4 +1,4 @@
-advancement revoke @s only trail_runes:fishing_injector
+advancement revoke @s only trail_runes:injector/fishing_injector
 
 execute if predicate trail_runes:sunken_rune_probability run tag @s add won_rune
 

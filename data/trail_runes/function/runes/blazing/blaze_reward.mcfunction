@@ -1,4 +1,4 @@
-advancement revoke @s only trail_runes:blaze_injector
+advancement revoke @s only trail_runes:injector/blaze_injector
 
 execute if predicate trail_runes:blazing_rune_probability run tag @s add won_blazing_rune
 
