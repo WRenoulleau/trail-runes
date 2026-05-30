@@ -1,7 +1,7 @@
 [
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{has_rune:true, rune_id:'blazing'}"
+    "tag": "{has_rune:true, rune_id:'shrieking'}"
   },
   {
     "function": "minecraft:set_lore",
@@ -9,7 +9,7 @@
     "lore": [
       {"text": " ", "color": "gray", "italic": false},
       {"text": "Applied Rune:", "color": "gray", "italic": false},
-      {"text": " Blazing Rune", "color": "gold", "italic": false}
+      {"text": " Shrieking Rune", "color": "dark_aqua", "italic": false}
     ],
     "mode": "replace_all"
   }

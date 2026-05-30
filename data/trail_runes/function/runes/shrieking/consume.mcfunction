@@ -1,0 +1,2 @@
+advancement revoke @s only trail_runes:consume/consume_shrieking
+function trail_runes:api/try_apply {id:"shrieking", trigger_id:"3", give_func:"trail_runes:runes/shrieking/give", modifier:"apply_shrieking_rune"}
