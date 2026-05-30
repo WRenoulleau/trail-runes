@@ -16,7 +16,7 @@
       }
     },
     "title": "Shrieking Rune",
-    "description": "Rarely dropped from killing wardens",
+    "description": "25% drop chance from killing wardens",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

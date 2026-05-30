@@ -16,7 +16,7 @@
       }
     },
     "title": "Sunken Rune",
-    "description": "Rarely dropped from fishing",
+    "description": "2% drop chance from fishing",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

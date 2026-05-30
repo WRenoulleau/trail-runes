@@ -12,6 +12,7 @@
   "criteria": {
     "sunken": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"sunken\"}" } } ] } },
     "blazing": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"blazing\"}" } } ] } },
-    "shrieking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"shrieking\"}" } } ] } }
+    "shrieking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"shrieking\"}" } } ] } },
+    "blossoming": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"blossoming\"}" } } ] } }
   }
 }
