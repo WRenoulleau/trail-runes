@@ -2,7 +2,7 @@ tag @s add can_apply_rune
 
 # No Boots Equipped
 $execute unless items entity @s armor.feet * run function trail_runes:api/refund {give_func:"$(give_func)"}
-execute unless items entity @s armor.feet * run tellraw @s {"text":"No boots were found to equip this rune!","color":"red"}
+execute unless items entity @s armor.feet * run tellraw @s {"text":"Equip yourself with boots to apply this rune!","color":"red"}
 execute unless items entity @s armor.feet * run tag @s remove can_apply_rune
 
 # Same rune is already applied

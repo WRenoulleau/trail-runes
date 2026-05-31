@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{has_rune:true, rune_id:'engineering'}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {"text": " ", "color": "gray", "italic": false},
+      {"text": "Applied Rune:", "color": "gray", "italic": false},
+      {"text": " Engineering Rune", "color": "red", "italic": false}
+    ],
+    "mode": "replace_all"
+  }
+]
