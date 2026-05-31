@@ -1,3 +1,4 @@
 scoreboard objectives add rune_replace trigger
 scoreboard objectives add mine_cherry_log mined:cherry_log
 scoreboard objectives add mine_cherry_wood mined:cherry_wood
+scoreboard objectives add mine_creaking_heart mined:creaking_heart

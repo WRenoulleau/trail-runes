@@ -1,0 +1,9 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": { "item": { "predicates": { "minecraft:custom_data": "{rune:\"resinous\"}" } } }
+    }
+  },
+  "rewards": { "function": "trail_runes:runes/resinous/consume" }
+}

@@ -4,6 +4,7 @@ execute as @a[scores={rune_replace=1}] run function trail_runes:runes/sunken/for
 execute as @a[scores={rune_replace=2}] run function trail_runes:runes/blazing/force_apply
 execute as @a[scores={rune_replace=3}] run function trail_runes:runes/shrieking/force_apply
 execute as @a[scores={rune_replace=4}] run function trail_runes:runes/blossoming/force_apply
+execute as @a[scores={rune_replace=5}] run function trail_runes:runes/resinous/force_apply
 
 # Sunken Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at @s run particle minecraft:splash ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
@@ -23,3 +24,10 @@ execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"shrieking"}]
 execute as @a[scores={mine_cherry_log=1..}] run function trail_runes:runes/blossoming/mine_reward
 execute as @a[scores={mine_cherry_wood=1..}] run function trail_runes:runes/blossoming/mine_reward
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"blossoming"}] at @s run particle minecraft:cherry_leaves ~ ~0.1 ~ 0.15 0.1 0.15 0 2 normal @a
+
+# Resinous Rune
+execute as @a[scores={mine_creaking_heart=1..}] run function trail_runes:runes/resinous/heart_reward
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"resinous"}] at @s run particle minecraft:dust{color:[0.94, 0.35, 0],scale:1} ~ ~0.05 ~ 0.1 0.1 0.1 0 1 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"resinous"}] at @s run particle minecraft:dust{color:[0.8, 0.8, 0.8],scale:1} ~ ~0.05 ~ 0.1 0.1 0.1 0 1 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"resinous"}] at @s run particle minecraft:item{item:{id:resin_clump}} ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"resinous"}] at @s run particle minecraft:tinted_leaves{color:[1, 1, 1, 1]} ~ ~0.1 ~ 0.1 0.1 0.1 0 1 normal @a
