@@ -9,14 +9,14 @@
           "properties": [
             {
               "name": "textures",
-              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I0ODFjMzFkYzY4M2JkY2I3ZDM3NWE3YzVkYjdhYzdhZGY5ZTlmZThiNmMwNGE2NDkzMTYxM2UyOWZlNDcwZSJ9fX0="
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzczOGI4YWY4ZDdjZTFhMjZkYzZkNDAxODBiMzU4OTQwM2UxMWVmMzZhNjZkN2M0NTkwMDM3NzMyODI5NTQyZSJ9fX0="
             }
           ]
         }
       }
     },
     "title": "Shrieking Rune",
-    "description": "25% drop chance from killing wardens",
+    "description": "20% drop chance from killing wardens (1/5)",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

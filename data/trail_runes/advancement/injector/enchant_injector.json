@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "enchanted_something": {
+      "trigger": "minecraft:enchanted_item"
+    }
+  },
+  "rewards": {
+    "function": "trail_runes:runes/esoteric/enchant_reward"
+  }
+}

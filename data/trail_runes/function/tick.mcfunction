@@ -6,6 +6,7 @@ execute as @a[scores={rune_replace=3}] run function trail_runes:runes/shrieking/
 execute as @a[scores={rune_replace=4}] run function trail_runes:runes/blossoming/force_apply
 execute as @a[scores={rune_replace=5}] run function trail_runes:runes/resinous/force_apply
 execute as @a[scores={rune_replace=6}] run function trail_runes:runes/engineering/force_apply
+execute as @a[scores={rune_replace=7}] run function trail_runes:runes/esoteric/force_apply
 
 # Sunken Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at @s run particle minecraft:splash ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
@@ -13,8 +14,9 @@ execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at @s run particle minecraft:dust{color:[0, 0.50, 1],scale:1.4} ~ ~ ~ 0.1 0.05 0.1 0 1 normal @a
 
 # Blazing Rune
-execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"blazing"}] at @s run particle minecraft:flame ~ ~0.05 ~ 0.1 0.1 0.1 0 1 normal @a
-execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"blazing"}] at @s run particle minecraft:small_flame ~ ~0.05 ~ 0.15 0.1 0.15 0 2 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"blazing"}] at @s run particle minecraft:flame ~ ~0.1 ~ 0.1 0.05 0.1 0 1 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"blazing"}] at @s run particle minecraft:small_flame ~ ~0.1 ~ 0.15 0.05 0.15 0 2 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"blazing"}] at @s run particle minecraft:smoke ~ ~0.05 ~ 0.2 0.1 0.2 0 2 normal @a
 
 # Shrieking Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"shrieking"}] at @s run particle minecraft:sculk_soul ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
@@ -37,3 +39,7 @@ execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"resinous"}] 
 execute as @a[scores={mine_redstone_ore=1..}] run function trail_runes:runes/engineering/mine_reward
 execute as @a[scores={mine_deepslate_redstone_ore=1..}] run function trail_runes:runes/engineering/mine_reward
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"engineering"}] at @s run particle minecraft:dust{color:[1, 0, 0],scale:1} ~ ~0.05 ~ 0.15 0.1 0.15 0 3 normal @a
+
+# Esoteric Rune
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"esoteric"}] at @s run particle minecraft:enchant ~ ~0.1 ~ 0.15 0.1 0.15 0.3 4 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"esoteric"}] at @s run particle minecraft:dust{color:[0.88, 0.36, 0.87],scale:1} ~ ~0.05 ~ 0.15 0.1 0.15 0 1 normal @a
