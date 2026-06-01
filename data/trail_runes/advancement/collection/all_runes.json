@@ -16,6 +16,7 @@
     "blossoming": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"blossoming\"}" } } ] } },
     "resinous": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"resinous\"}" } } ] } },
     "engineering": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"engineering\"}" } } ] } },
-    "esoteric": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"esoteric\"}" } } ] } }
+    "esoteric": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"esoteric\"}" } } ] } },
+    "gilded": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"gilded\"}" } } ] } }
   }
 }

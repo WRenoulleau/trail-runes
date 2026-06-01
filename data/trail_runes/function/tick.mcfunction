@@ -7,6 +7,7 @@ execute as @a[scores={rune_replace=4}] run function trail_runes:runes/blossoming
 execute as @a[scores={rune_replace=5}] run function trail_runes:runes/resinous/force_apply
 execute as @a[scores={rune_replace=6}] run function trail_runes:runes/engineering/force_apply
 execute as @a[scores={rune_replace=7}] run function trail_runes:runes/esoteric/force_apply
+execute as @a[scores={rune_replace=8}] run function trail_runes:runes/gilded/force_apply
 
 # Sunken Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at @s run particle minecraft:splash ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
@@ -43,3 +44,8 @@ execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"engineering"
 # Esoteric Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"esoteric"}] at @s run particle minecraft:enchant ~ ~0.1 ~ 0.15 0.1 0.15 0.3 4 normal @a
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"esoteric"}] at @s run particle minecraft:dust{color:[0.88, 0.36, 0.87],scale:1} ~ ~0.05 ~ 0.15 0.1 0.15 0 1 normal @a
+
+# Gilded Rune
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"gilded"}] at @s run particle minecraft:item{item:{id:raw_gold}} ~ ~0.05 ~ 0.15 0.1 0.15 0 2 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"gilded"}] at @s run particle minecraft:item{item:{id:gold_nugget}} ~ ~0.05 ~ 0.15 0.1 0.15 0 2 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"gilded"}] at @s run particle minecraft:item{item:{id:gold_ingot}} ~ ~0.05 ~ 0.15 0.1 0.15 0 2 normal @a
