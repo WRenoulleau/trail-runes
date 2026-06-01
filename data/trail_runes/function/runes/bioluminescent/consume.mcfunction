@@ -1,2 +1,2 @@
-advancement revoke @s only trail_runes:consume/consume_bioluminescent
+advancement revoke @s only trail_runes:consume/bioluminescent
 function trail_runes:api/try_apply {id:"bioluminescent", trigger_id:"9", give_func:"trail_runes:runes/bioluminescent/give", modifier:"apply_bioluminescent_rune"}

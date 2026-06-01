@@ -1,0 +1,15 @@
+{
+  "parent": "trail_runes:collection/root",
+  "display": {
+    "icon": { "id": "minecraft:golden_pickaxe" },
+    "title": "Ressource Runes",
+    "description": "Collect every ressource related runes",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "blossoming": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"blossoming\"}" } } ] } },
+    "engineering": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"engineering\"}" } } ] } }
+  }
+}

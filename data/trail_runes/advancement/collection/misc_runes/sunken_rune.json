@@ -1,5 +1,5 @@
 {
-  "parent": "trail_runes:collection/all_runes",
+  "parent": "trail_runes:collection/misc_runes/misc_runes",
   "display": {
     "icon": {
       "id": "minecraft:player_head",
@@ -19,8 +19,7 @@
     "description": "2% drop chance from fishing (1/50)",
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "criteria": {
     "got_rune": {

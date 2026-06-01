@@ -9,6 +9,6 @@
     }
   },
   "rewards": {
-    "function": "trail_runes:fishing_reward"
+    "function": "trail_runes:runes/sunken/fishing_reward"
   }
 }

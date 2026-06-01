@@ -1,0 +1,16 @@
+{
+  "parent": "trail_runes:collection/root",
+  "display": {
+    "icon": { "id": "minecraft:fishing_rod" },
+    "title": "Miscellaneous Runes",
+    "description": "Collect every miscellaneous runes",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "sunken": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"sunken\"}" } } ] } },
+    "esoteric": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"esoteric\"}" } } ] } },
+    "gilded": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"gilded\"}" } } ] } }
+  }
+}

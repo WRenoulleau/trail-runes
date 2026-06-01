@@ -1,2 +1,2 @@
-advancement revoke @s only trail_runes:consume/consume_engineering
+advancement revoke @s only trail_runes:consume/engineering
 function trail_runes:api/try_apply {id:"engineering", trigger_id:"6", give_func:"trail_runes:runes/engineering/give", modifier:"apply_engineering_rune"}

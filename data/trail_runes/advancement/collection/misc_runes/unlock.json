@@ -1,0 +1,8 @@
+{
+  "parent": "trail_runes:collection/misc_runes/gilded_rune",
+  "criteria": {
+    "auto_unlock": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

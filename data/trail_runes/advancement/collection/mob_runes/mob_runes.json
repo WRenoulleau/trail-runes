@@ -1,0 +1,17 @@
+{
+  "parent": "trail_runes:collection/root",
+  "display": {
+    "icon": { "id": "minecraft:golden_sword" },
+    "title": "Mob Runes",
+    "description": "Collect every mob related runes",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "blazing": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"blazing\"}" } } ] } },
+    "shrieking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"shrieking\"}" } } ] } },
+    "resinous": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"resinous\"}" } } ] } },
+    "bioluminescent": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"bioluminescent\"}" } } ] } }
+  }
+}
