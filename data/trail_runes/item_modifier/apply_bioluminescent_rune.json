@@ -1,7 +1,7 @@
 [
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{has_rune:true, rune_id:'sunken'}"
+    "tag": "{has_rune:true, rune_id:'bioluminescent'}"
   },
   {
     "function": "minecraft:set_lore",
@@ -9,7 +9,7 @@
     "lore": [
       {"text": " ", "color": "gray", "italic": false},
       {"text": "Applied Rune:", "color": "gray", "italic": false},
-      {"text": " Sunken Rune", "color": "blue", "italic": false}
+      {"text": " Bioluminescent Rune", "color": "aqua", "italic": false}
     ],
     "mode": "replace_all"
   }

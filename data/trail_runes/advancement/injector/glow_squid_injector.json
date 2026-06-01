@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "killed_glow_squid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:glow_squid"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trail_runes:runes/bioluminescent/glow_squid_reward"
+  }
+}
