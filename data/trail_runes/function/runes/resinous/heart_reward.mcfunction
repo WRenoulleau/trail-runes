@@ -1,8 +1,8 @@
 scoreboard players set @s mine_creaking_heart 0
 
-execute if predicate trail_runes:resinous_rune_probability run tag @s add won_resinous_rune
+execute if predicate trail_runes:resinous_rune_probability run tag @s add won_rune
 
-execute if entity @s[tag=won_resinous_rune] run function trail_runes:runes/resinous/give
-execute if entity @s[tag=won_resinous_rune] run tellraw @s {"text":"ᛃ You found a Resinous Rune!","color":"gold"}
+execute if entity @s[tag=won_rune] run function trail_runes:runes/resinous/give
+execute if entity @s[tag=won_rune] run tellraw @s {"text":"ᛃ You found a Resinous Rune!","color":"gold"}
 
-tag @s remove won_resinous_rune
+tag @s remove won_rune

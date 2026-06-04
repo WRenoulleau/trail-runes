@@ -11,6 +11,7 @@ execute as @a[scores={rune_replace=8}] run function trail_runes:runes/gilded/for
 execute as @a[scores={rune_replace=9}] run function trail_runes:runes/bioluminescent/force_apply
 execute as @a[scores={rune_replace=10}] run function trail_runes:runes/arctic/force_apply
 execute as @a[scores={rune_replace=11}] run function trail_runes:runes/loving/force_apply
+execute as @a[scores={rune_replace=12}] run function trail_runes:runes/musical/force_apply
 
 # Sunken Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at @s run particle minecraft:splash ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
@@ -64,3 +65,6 @@ execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"arctic"}] at
 
 # Loving Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"loving"}] at @s run particle minecraft:heart ~ ~0.05 ~ 0.15 0.1 0.15 0 1 normal @a
+
+# Musical Rune
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"musical"}] at @s run particle minecraft:note ~ ~0.05 ~ 0.20 0.1 0.20 1 1 normal @a
