@@ -9,7 +9,11 @@
     "lore": [
       {"text": " ", "color": "gray", "italic": false},
       {"text": "Applied Rune:", "color": "gray", "italic": false},
-      {"text": " Esoteric Rune", "color": "white", "italic": false}
+      [
+        {"text": " ", "color": "white", "italic": false},
+        {"text": "Esoteric", "color": "white", "italic": false, "font": "minecraft:alt"},
+        {"text": " Rune", "color": "white", "italic": false, "font": "minecraft:default"}
+      ]
     ],
     "mode": "replace_all"
   }
