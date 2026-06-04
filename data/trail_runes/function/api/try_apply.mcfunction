@@ -16,7 +16,7 @@ tag @s remove checking_duplicate
 $execute if entity @s[tag=can_apply_rune] if items entity @s armor.feet *[custom_data~{has_rune:true}] run function trail_runes:api/prompt_replace {give_func:"$(give_func)", trigger_id:"$(trigger_id)"}
 execute if items entity @s armor.feet *[custom_data~{has_rune:true}] run tag @s remove can_apply_rune
 
-# Clean Boots / No rune applied
+# Clean Boots
 $execute if entity @s[tag=can_apply_rune] run function trail_runes:api/apply_modifier {modifier:"$(modifier)"}
 
 tag @s remove can_apply_rune

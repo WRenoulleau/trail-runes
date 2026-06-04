@@ -1,5 +1,5 @@
 {
-  "parent": "trail_runes:collection/mob_runes/bioluminescent_rune",
+  "parent": "trail_runes:collection/mob_runes/arctic_rune",
   "display": {
     "icon": {
       "id": "minecraft:player_head",

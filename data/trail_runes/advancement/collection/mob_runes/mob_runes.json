@@ -12,6 +12,7 @@
     "blazing": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"blazing\"}" } } ] } },
     "shrieking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"shrieking\"}" } } ] } },
     "resinous": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"resinous\"}" } } ] } },
-    "bioluminescent": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"bioluminescent\"}" } } ] } }
+    "bioluminescent": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"bioluminescent\"}" } } ] } },
+    "arctic": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"arctic\"}" } } ] } }
   }
 }
