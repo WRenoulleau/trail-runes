@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "bred_any_animal": {
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "rewards": {
+    "function": "trail_runes:runes/loving/breed_reward"
+  }
+}

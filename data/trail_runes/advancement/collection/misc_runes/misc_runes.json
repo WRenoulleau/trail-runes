@@ -11,6 +11,7 @@
   "criteria": {
     "sunken": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"sunken\"}" } } ] } },
     "esoteric": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"esoteric\"}" } } ] } },
-    "gilded": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"gilded\"}" } } ] } }
+    "gilded": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"gilded\"}" } } ] } },
+    "loving": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"loving\"}" } } ] } }
   }
 }

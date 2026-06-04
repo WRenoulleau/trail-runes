@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{has_rune:true, rune_id:'loving'}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {"text": " ", "color": "gray", "italic": false},
+      {"text": "Applied Rune:", "color": "gray", "italic": false},
+      {"text": " Loving Rune", "color": "red", "italic": false}
+    ],
+    "mode": "replace_all"
+  }
+]

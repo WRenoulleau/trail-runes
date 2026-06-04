@@ -1,0 +1,38 @@
+{
+  "parent": "trail_runes:collection/misc_runes/esoteric_rune",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:custom_data": { "rune": "loving" },
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0aW1lc3RhbXAiOjE3ODA1Mzk2NjUsInByb2ZpbGVJZCI6ImM2MjgzYjE0MzVjNjRhMjk5NDIyNjMyNzI2MGM0NjFjIiwicHJvZmlsZU5hbWUiOiJOZWVkQ29vbGVyU2hvZXMiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5MmMzYzcxMWZlNWJjYmM4OTYwZjExYzIwZjM3MWUyOWU2MjRiOGU4NzBkNWE4ZmM2NzkwMzU5MmQ5NjE0MmUifX19"
+            }
+          ]
+        }
+      }
+    },
+    "title": "Loving Rune",
+    "description": "0.5% drop chance from breeding animals (1/200)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "got_rune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{rune:\"loving\"}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
