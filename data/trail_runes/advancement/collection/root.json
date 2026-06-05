@@ -32,6 +32,7 @@
     "bioluminescent": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"bioluminescent\"}" } } ] } },
     "arctic": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"arctic\"}" } } ] } },
     "loving": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"loving\"}" } } ] } },
-    "musical": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"musical\"}" } } ] } }
+    "musical": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"musical\"}" } } ] } },
+    "smoking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"smoking\"}" } } ] } }
   }
 }

@@ -10,6 +10,7 @@
   },
   "criteria": {
     "blossoming": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"blossoming\"}" } } ] } },
-    "engineering": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"engineering\"}" } } ] } }
+    "engineering": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"engineering\"}" } } ] } },
+    "smoking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"smoking\"}" } } ] } }
   }
 }

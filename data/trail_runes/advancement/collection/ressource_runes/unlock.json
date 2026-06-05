@@ -1,5 +1,5 @@
 {
-  "parent": "trail_runes:collection/ressource_runes/engineering_rune",
+  "parent": "trail_runes:collection/ressource_runes/smoking_rune",
   "criteria": {
     "auto_unlock": {
       "trigger": "minecraft:tick"
