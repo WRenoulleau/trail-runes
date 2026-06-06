@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{has_rune:true, rune_id:'draconic'}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {"text": " ", "color": "gray", "italic": false},
+      {"text": "Applied Rune:", "color": "gray", "italic": false},
+      {"text": " Draconic Breath Rune", "color": "dark_purple", "italic": false}
+    ],
+    "mode": "replace_all"
+  }
+]

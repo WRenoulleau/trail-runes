@@ -1,5 +1,5 @@
 {
-  "parent": "trail_runes:collection/mob_runes/shrieking_rune",
+  "parent": "trail_runes:collection/mob_runes/draconic_rune",
   "criteria": {
     "auto_unlock": {
       "trigger": "minecraft:tick"
