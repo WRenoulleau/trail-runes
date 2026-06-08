@@ -14,6 +14,7 @@ execute as @a[scores={rune_replace=11}] run function trail_runes:runes/loving/fo
 execute as @a[scores={rune_replace=12}] run function trail_runes:runes/musical/force_apply
 execute as @a[scores={rune_replace=13}] run function trail_runes:runes/smoking/force_apply
 execute as @a[scores={rune_replace=14}] run function trail_runes:runes/draconic/force_apply
+execute as @a[scores={rune_replace=15}] run function trail_runes:runes/charged/force_apply
 
 # Sunken Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at @s run particle minecraft:splash ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
@@ -76,3 +77,8 @@ execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"smoking"}] a
 
 # Draconic Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"draconic"}] at @s run particle minecraft:dragon_breath{power:0.98} ~ ~ ~ 0.35 0.1 0.35 0.005 3 normal @a
+
+# Charged Rune
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"charged"}] at @s run particle minecraft:dust{color:[0.34, 0.85, 0.47],scale:1.5} ~ ~0.05 ~ 0.1 0.1 0.1 0 1 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"charged"}] at @s run particle minecraft:dust{color:[0.16, 0.74, 0.31],scale:1.5} ~ ~0.05 ~ 0.1 0.1 0.1 0 1 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"charged"}] at @s run particle minecraft:small_gust ~ ~0.1 ~ 0.2 0.1 0.2 0 1 normal @a

@@ -1,0 +1,9 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": { "item": { "predicates": { "minecraft:custom_data": "{rune:\"charged\"}" } } }
+    }
+  },
+  "rewards": { "function": "trail_runes:runes/charged/consume" }
+}
