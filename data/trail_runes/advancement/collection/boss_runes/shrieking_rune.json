@@ -1,5 +1,5 @@
 {
-  "parent": "trail_runes:collection/mob_runes/resinous_rune",
+  "parent": "trail_runes:collection/boss_runes/boss_runes",
   "display": {
     "icon": {
       "id": "minecraft:player_head",

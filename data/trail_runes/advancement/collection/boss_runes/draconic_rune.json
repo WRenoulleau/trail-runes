@@ -1,5 +1,5 @@
 {
-  "parent": "trail_runes:collection/mob_runes/shrieking_rune",
+  "parent": "trail_runes:collection/boss_runes/shrieking_rune",
   "display": {
     "icon": {
       "id": "minecraft:player_head",

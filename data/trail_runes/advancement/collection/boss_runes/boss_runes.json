@@ -1,0 +1,15 @@
+{
+  "parent": "trail_runes:collection/root",
+  "display": {
+    "icon": { "id": "minecraft:nether_star" },
+    "title": "Boss Runes",
+    "description": "Collect every boss related runes",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "shrieking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"shrieking\"}" } } ] } },
+    "draconic": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"draconic\"}" } } ] } }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "trail_runes:collection/mob_runes/charged_rune",
+  "parent": "trail_runes:collection/boss_runes/draconic_rune",
   "criteria": {
     "auto_unlock": {
       "trigger": "minecraft:tick"
