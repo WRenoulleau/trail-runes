@@ -10,6 +10,7 @@
   },
   "criteria": {
     "shrieking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"shrieking\"}" } } ] } },
-    "draconic": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"draconic\"}" } } ] } }
+    "draconic": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"draconic\"}" } } ] } },
+    "withered": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"withered\"}" } } ] } }
   }
 }

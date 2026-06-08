@@ -15,6 +15,7 @@ execute as @a[scores={rune_replace=12}] run function trail_runes:runes/musical/f
 execute as @a[scores={rune_replace=13}] run function trail_runes:runes/smoking/force_apply
 execute as @a[scores={rune_replace=14}] run function trail_runes:runes/draconic/force_apply
 execute as @a[scores={rune_replace=15}] run function trail_runes:runes/charged/force_apply
+execute as @a[scores={rune_replace=16}] run function trail_runes:runes/withered/force_apply
 
 # Sunken Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at @s run particle minecraft:splash ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
@@ -82,3 +83,8 @@ execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"draconic"}] 
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"charged"}] at @s run particle minecraft:dust{color:[0.34, 0.85, 0.47],scale:1.5} ~ ~0.05 ~ 0.1 0.1 0.1 0 1 normal @a
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"charged"}] at @s run particle minecraft:dust{color:[0.16, 0.74, 0.31],scale:1.5} ~ ~0.05 ~ 0.1 0.1 0.1 0 1 normal @a
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"charged"}] at @s run particle minecraft:small_gust ~ ~0.1 ~ 0.2 0.1 0.2 0 1 normal @a
+
+# Withered Rune
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"withered"}] at @s run particle minecraft:smoke ~ ~0.05 ~ 0.2 0.1 0.2 0 4 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"withered"}] at @s run particle minecraft:entity_effect{color:[0, 0, 0, 0.7]} ~ ~ ~ 0.15 0 0.15 0.001 1 normal @a
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"withered"}] at @s run particle minecraft:entity_effect{color:[0.1, 0.1, 0.1, 0.7]} ~ ~ ~ 0.15 0 0.15 0.001 1 normal @a

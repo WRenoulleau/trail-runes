@@ -15,7 +15,7 @@
     },
     "title": "Trail Runes Collection",
     "description": "Collect Them All!",
-    "background": "minecraft:block/crying_obsidian",
+    "background": "minecraft:block/chiseled_tuff",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true
@@ -35,6 +35,7 @@
     "musical": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"musical\"}" } } ] } },
     "smoking": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"smoking\"}" } } ] } },
     "draconic": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"draconic\"}" } } ] } },
-    "charged": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"charged\"}" } } ] } }
+    "charged": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"charged\"}" } } ] } },
+    "withered": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "predicates": { "minecraft:custom_data": "{rune:\"withered\"}" } } ] } }
   }
 }
