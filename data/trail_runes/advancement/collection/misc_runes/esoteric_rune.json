@@ -19,7 +19,9 @@
       { "text": "Esoteric", "font": "minecraft:alt" },
       { "text": " Rune", "font": "minecraft:default" }
     ],
-    "description": "2% drop chance from enchanting anything (1/50)",
+    "description": [
+      { "text": "2% drop chance from enchanting anything (1/50)", "font": "minecraft:default" }
+    ],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
