@@ -1,5 +1,10 @@
 scoreboard players enable @a rune_replace
 
+scoreboard players enable @a tr_list
+
+execute as @a[scores={tr_list=1..}] run function trail_runes:list
+execute as @a[scores={tr_list=1..}] run scoreboard players reset @s tr_list
+
 execute as @a[scores={rune_replace=1}] run function trail_runes:runes/sunken/force_apply
 execute as @a[scores={rune_replace=2}] run function trail_runes:runes/blazing/force_apply
 execute as @a[scores={rune_replace=3}] run function trail_runes:runes/shrieking/force_apply

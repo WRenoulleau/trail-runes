@@ -160,7 +160,7 @@ scoreboard players operation #wit_du rune_roll %= #tr10 rune_chances
 
 tellraw @s ["", \
     {"text":"\nTRAIL RUNES CONFIG MENU\n\n","bold":true,"underlined":true,"color":"#D4D4D4"}, \
-    {"text":"Select a rune to change its probability of appearing\n\n","color":"#B232B1"}, \
+    {"text":"Select a rune to change its drop rates\n\n","color":"#B232B1"}, \
     \
     {"text":" ◇ Arctic Rune","color":"white","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/show/arctic"}}, \
     {"text":" - ","color":"#7E888A"}, \

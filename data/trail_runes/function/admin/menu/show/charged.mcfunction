@@ -11,7 +11,7 @@ scoreboard players operation #dec_units rune_roll = #dec rune_roll
 scoreboard players operation #dec_units rune_roll %= #tr10 rune_chances
 
 tellraw @s ["", \
-    {"text":"\n ◇ Charged Rune Drop Chances :\n","color":"green"}, \
+    {"text":"\n ◇ Charged Rune Drop Rates :\n","color":"green"}, \
     \
     {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/modify {rune:\"#charged\",operation:\"set\",amount:0,menu:\"trail_runes:admin/menu/show/charged\"}"}}, \
     {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/modify {rune:\"#charged\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/menu/show/charged\"}"}}, \

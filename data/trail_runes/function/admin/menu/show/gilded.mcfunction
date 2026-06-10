@@ -11,7 +11,7 @@ scoreboard players operation #dec_units rune_roll = #dec rune_roll
 scoreboard players operation #dec_units rune_roll %= #tr10 rune_chances
 
 tellraw @s ["", \
-    {"text":"\n ◇ Gilded Rune Drop Chances :\n","color":"yellow"}, \
+    {"text":"\n ◇ Gilded Rune Drop Rates :\n","color":"yellow"}, \
     \
     {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/modify {rune:\"#gilded\",operation:\"set\",amount:0,menu:\"trail_runes:admin/menu/show/gilded\"}"}}, \
     {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/modify {rune:\"#gilded\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/menu/show/gilded\"}"}}, \

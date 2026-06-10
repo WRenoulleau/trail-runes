@@ -1,5 +1,7 @@
-# Reward Objectives
 scoreboard objectives add rune_replace trigger
+scoreboard objectives add tr_list trigger
+
+# Reward Objectives
 scoreboard objectives add mine_cherry_log mined:cherry_log
 scoreboard objectives add mine_cherry_wood mined:cherry_wood
 scoreboard objectives add mine_creaking_heart mined:creaking_heart
@@ -14,7 +16,7 @@ scoreboard objectives add rune_config trigger
 scoreboard players set #tr100 rune_chances 100
 scoreboard players set #tr10 rune_chances 10
 
-# Default Chances
+# Default Rates
 execute unless score #draconic rune_chances matches 0..10000 run scoreboard players set #draconic rune_chances 3333
 execute unless score #shrieking rune_chances matches 0..10000 run scoreboard players set #shrieking rune_chances 2000
 execute unless score #withered rune_chances matches 0..10000 run scoreboard players set #withered rune_chances 2000

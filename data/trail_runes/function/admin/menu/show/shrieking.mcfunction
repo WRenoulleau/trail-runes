@@ -11,7 +11,7 @@ scoreboard players operation #dec_units rune_roll = #dec rune_roll
 scoreboard players operation #dec_units rune_roll %= #tr10 rune_chances
 
 tellraw @s ["", \
-    {"text":"\n ◇ Shrieking Rune Drop Chances :\n","color":"dark_aqua"}, \
+    {"text":"\n ◇ Shrieking Rune Drop Rates :\n","color":"dark_aqua"}, \
     \
     {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/modify {rune:\"#shrieking\",operation:\"set\",amount:0,menu:\"trail_runes:admin/menu/show/shrieking\"}"}}, \
     {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/modify {rune:\"#shrieking\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/menu/show/shrieking\"}"}}, \

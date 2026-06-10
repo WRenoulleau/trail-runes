@@ -11,7 +11,7 @@ scoreboard players operation #dec_units rune_roll = #dec rune_roll
 scoreboard players operation #dec_units rune_roll %= #tr10 rune_chances
 
 tellraw @s ["", \
-    {"text":"\n ◇ Arctic Rune Drop Chances :\n","color":"white"}, \
+    {"text":"\n ◇ Arctic Rune Drop Rates :\n","color":"white"}, \
     \
     {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/modify {rune:\"#arctic\",operation:\"set\",amount:0,menu:\"trail_runes:admin/menu/show/arctic\"}"}}, \
     {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/menu/modify {rune:\"#arctic\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/menu/show/arctic\"}"}}, \
