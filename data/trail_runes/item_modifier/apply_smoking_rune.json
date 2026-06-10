@@ -9,7 +9,7 @@
     "lore": [
       {"text": " ", "color": "gray", "italic": false},
       {"text": "Applied Rune:", "color": "gray", "italic": false},
-      {"text": " Smoking Rune", "color": "dark_gray", "italic": false}
+      {"text": " Smoking Rune", "color": "gray", "italic": false}
     ],
     "mode": "replace_all"
   }

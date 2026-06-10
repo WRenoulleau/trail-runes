@@ -16,7 +16,7 @@
       }
     },
     "title": "Musical Rune",
-    "description": "5% drop chance from taming parrots (1/20)",
+    "description": "Rare drop from taming parrots",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

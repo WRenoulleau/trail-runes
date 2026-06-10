@@ -1,7 +1,8 @@
 scoreboard players set @s mine_deepslate_redstone_ore 0
 scoreboard players set @s mine_redstone_ore 0
 
-execute if predicate trail_runes:engineering_rune_probability run tag @s add won_rune
+execute store result score @s rune_roll run random value 1..10000
+execute if score @s rune_roll <= #engineering rune_chances run tag @s add won_rune
 
 execute if entity @s[tag=won_rune] run function trail_runes:runes/engineering/give
 execute if entity @s[tag=won_rune] run tellraw @s {"text":"ᛃ You found an Engineering Rune!","color":"red"}
@@ -9,3 +10,4 @@ execute if entity @s[tag=won_rune] run playsound entity.arrow.hit_player player 
 execute if entity @s[tag=won_rune] run playsound entity.item.pickup player @s ~ ~ ~ 1 1 
 
 tag @s remove won_rune
+scoreboard players reset @s rune_roll

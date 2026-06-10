@@ -16,7 +16,7 @@
       }
     },
     "title": "Blazing Rune",
-    "description": "1% drop chance from killing blazes (1/100)",
+    "description": "Rare drop from killing blazes",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

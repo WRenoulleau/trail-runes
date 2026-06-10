@@ -16,7 +16,7 @@
       }
     },
     "title": "Withered Rune",
-    "description": "20% drop chance from killing the Wither (1/5)",
+    "description": "Rare drop from killing the Wither",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

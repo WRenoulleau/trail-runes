@@ -9,7 +9,7 @@
     "lore": [
       {"text": " ", "color": "gray", "italic": false},
       {"text": "Applied Rune:", "color": "gray", "italic": false},
-      {"text": " Resinous Rune", "color": "gold", "italic": false}
+      {"text": " Resinous Rune", "color": "#FF7200", "italic": false}
     ],
     "mode": "replace_all"
   }

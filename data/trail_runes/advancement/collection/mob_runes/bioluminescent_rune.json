@@ -16,7 +16,7 @@
       }
     },
     "title": "Bioluminescent Rune",
-    "description": "2% drop chance from killing glow squids (1/50)",
+    "description": "Rare drop from killing glow squids",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

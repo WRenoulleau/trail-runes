@@ -16,7 +16,7 @@
       }
     },
     "title": "Blossoming Rune",
-    "description": "0.5% drop chance from chopping cherry logs (1/200)",
+    "description": "Rare drop from chopping cherry logs",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

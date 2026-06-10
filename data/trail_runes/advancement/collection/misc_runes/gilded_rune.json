@@ -16,7 +16,7 @@
       }
     },
     "title": "Gilded Rune",
-    "description": "1% drop chance from bartering with piglins (1/100)",
+    "description": "Rare drop from bartering with piglins",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

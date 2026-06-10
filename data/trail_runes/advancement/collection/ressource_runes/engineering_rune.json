@@ -16,7 +16,7 @@
       }
     },
     "title": "Engineering Rune",
-    "description": "0.5% drop chance from mining redstone ores (1/200)",
+    "description": "Rare drop from mining redstone ores",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

@@ -20,7 +20,7 @@
       { "text": " Rune", "font": "minecraft:default" }
     ],
     "description": [
-      { "text": "2% drop chance from enchanting anything (1/50)", "font": "minecraft:default" }
+      { "text": "Rare drop from enchanting anything", "font": "minecraft:default" }
     ],
     "frame": "task",
     "show_toast": true,

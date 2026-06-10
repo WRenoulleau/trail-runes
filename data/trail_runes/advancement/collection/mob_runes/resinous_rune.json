@@ -16,7 +16,7 @@
       }
     },
     "title": "Resinous Rune",
-    "description": "10% drop chance from breaking creaking hearts (1/10)",
+    "description": "Rare drop from breaking creaking hearts",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

@@ -16,7 +16,7 @@
       }
     },
     "title": "Smoking Rune",
-    "description": "2% drop chance from safely harvesting honey (1/50)",
+    "description": "Rare drop from safely harvesting honey",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

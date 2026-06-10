@@ -16,7 +16,7 @@
       }
     },
     "title": "Arctic Rune",
-    "description": "1% drop chance from killing strays (1/100)",
+    "description": "Rare drop from killing strays",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

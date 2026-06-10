@@ -16,7 +16,7 @@
       }
     },
     "title": "Charged Rune",
-    "description": "2% drop chance from killing charged creepers (1/50)",
+    "description": "Rare drop from killing charged creepers",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
