@@ -1,0 +1,1 @@
+$loot give @s loot trail_runes:runes/$(id)
