@@ -1,5 +1,5 @@
 scoreboard objectives add rune_replace trigger
-scoreboard objectives add tr_list trigger
+scoreboard objectives add runes_list trigger
 
 # Reward Objectives
 scoreboard objectives add mine_cherry_log mined:cherry_log

@@ -1,9 +1,9 @@
 scoreboard players enable @a rune_replace
 
-scoreboard players enable @a tr_list
+scoreboard players enable @a runes_list
 
-execute as @a[scores={tr_list=1..}] run function trail_runes:list
-execute as @a[scores={tr_list=1..}] run scoreboard players reset @s tr_list
+execute as @a[scores={runes_list=1..}] run function trail_runes:runes/list
+execute as @a[scores={runes_list=1..}] run scoreboard players reset @s runes_list
 
 execute as @a[scores={rune_replace=1}] run function trail_runes:runes/sunken/force_apply
 execute as @a[scores={rune_replace=2}] run function trail_runes:runes/blazing/force_apply
