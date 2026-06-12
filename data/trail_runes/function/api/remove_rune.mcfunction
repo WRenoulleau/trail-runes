@@ -1,0 +1,1 @@
+item modify entity @s armor.feet trail_runes:clean_boots

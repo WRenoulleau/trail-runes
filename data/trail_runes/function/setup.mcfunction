@@ -1,4 +1,3 @@
-scoreboard objectives add rune_replace trigger
 scoreboard objectives add runes_list trigger
 
 # Reward Objectives

@@ -1,28 +1,9 @@
-scoreboard players enable @a rune_replace
-
 scoreboard players enable @a runes_list
 
 execute as @a[scores={runes_list=1..}] run function trail_runes:runes/list
 execute as @a[scores={runes_list=1..}] run scoreboard players reset @s runes_list
 
 execute as @e[type=item] if items entity @s contents *[custom_data~{has_rune:true}] at @s if block ~ ~-0.5 ~ minecraft:chiseled_tuff if block ~ ~ ~ #minecraft:anvil run function trail_runes:api/anvil_extract
-
-execute as @a[scores={rune_replace=1}] run function trail_runes:runes/sunken/force_apply
-execute as @a[scores={rune_replace=2}] run function trail_runes:runes/blazing/force_apply
-execute as @a[scores={rune_replace=3}] run function trail_runes:runes/shrieking/force_apply
-execute as @a[scores={rune_replace=4}] run function trail_runes:runes/blossoming/force_apply
-execute as @a[scores={rune_replace=5}] run function trail_runes:runes/resinous/force_apply
-execute as @a[scores={rune_replace=6}] run function trail_runes:runes/engineering/force_apply
-execute as @a[scores={rune_replace=7}] run function trail_runes:runes/esoteric/force_apply
-execute as @a[scores={rune_replace=8}] run function trail_runes:runes/gilded/force_apply
-execute as @a[scores={rune_replace=9}] run function trail_runes:runes/bioluminescent/force_apply
-execute as @a[scores={rune_replace=10}] run function trail_runes:runes/arctic/force_apply
-execute as @a[scores={rune_replace=11}] run function trail_runes:runes/loving/force_apply
-execute as @a[scores={rune_replace=12}] run function trail_runes:runes/musical/force_apply
-execute as @a[scores={rune_replace=13}] run function trail_runes:runes/smoking/force_apply
-execute as @a[scores={rune_replace=14}] run function trail_runes:runes/draconic/force_apply
-execute as @a[scores={rune_replace=15}] run function trail_runes:runes/charged/force_apply
-execute as @a[scores={rune_replace=16}] run function trail_runes:runes/withered/force_apply
 
 # Sunken Rune
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"sunken"}] at @s run particle minecraft:splash ~ ~0.05 ~ 0.1 0.1 0.1 0 2 normal @a
