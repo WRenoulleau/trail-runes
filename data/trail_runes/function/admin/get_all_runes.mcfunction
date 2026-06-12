@@ -1,0 +1,16 @@
+loot give @s loot trail_runes:runes/arctic
+loot give @s loot trail_runes:runes/bioluminescent
+loot give @s loot trail_runes:runes/blazing
+loot give @s loot trail_runes:runes/blossoming
+loot give @s loot trail_runes:runes/charged
+loot give @s loot trail_runes:runes/draconic
+loot give @s loot trail_runes:runes/engineering
+loot give @s loot trail_runes:runes/esoteric
+loot give @s loot trail_runes:runes/gilded
+loot give @s loot trail_runes:runes/loving
+loot give @s loot trail_runes:runes/musical
+loot give @s loot trail_runes:runes/resinous
+loot give @s loot trail_runes:runes/shrieking
+loot give @s loot trail_runes:runes/smoking
+loot give @s loot trail_runes:runes/sunken
+loot give @s loot trail_runes:runes/withered

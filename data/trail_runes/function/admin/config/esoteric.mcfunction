@@ -13,13 +13,14 @@ scoreboard players operation #dec_units rune_roll %= #tr10 rune_chances
 tellraw @s ["", \
     {"text":"\n ◇ ","color":"white"}, \
     {"text":"Esoteric","color":"white","font":"minecraft:alt"}, \
-    {"text":" Rune Drop Rates :\n","color":"white"}, \
+    {"text":" Rune Drop Rates :","color":"white"}, \
+    {"text":" (base: 2.00%)\n","color":"#7E888A"}, \
     \
-    {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"set\",amount:0,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
-    {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
-    {"text":"[1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"remove\",amount:100,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
-    {"text":"[0.1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"remove\",amount:10,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
-    {"text":"[0.01] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"remove\",amount:1,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"set\",amount:0,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"remove\",amount:100,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[0.1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"remove\",amount:10,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[0.01] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"remove\",amount:1,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
     \
     {"text":"- ","color":"red"}, \
     {"score":{"name":"#int","objective":"rune_roll"},"color":"white"}, \
@@ -29,9 +30,9 @@ tellraw @s ["", \
     {"text":"% ","color":"white"}, \
     \
     {"text":"+ ","color":"#3EAF3E"}, \
-    {"text":"[0.01] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"add\",amount:1,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
-    {"text":"[0.1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"add\",amount:10,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
-    {"text":"[1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"add\",amount:100,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
-    {"text":"[10] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"add\",amount:1000,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
-    {"text":"[100%]","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#esoteric\",operation:\"set\",amount:10000,menu:\"trail_runes:admin/config/esoteric\"}"}} \
+    {"text":"[0.01] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"add\",amount:1,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[0.1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"add\",amount:10,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"add\",amount:100,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[10] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"add\",amount:1000,menu:\"trail_runes:admin/config/esoteric\"}"}}, \
+    {"text":"[100%]","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#esoteric\",operation:\"set\",amount:10000,menu:\"trail_runes:admin/config/esoteric\"}"}} \
 ]

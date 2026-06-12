@@ -161,7 +161,7 @@ scoreboard players operation #wit_du rune_roll %= #tr10 rune_chances
 tellraw @s ["", \
     {"text":"\nTRAIL RUNES DROP RATES\n\n","bold":true,"underlined":true,"color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Arctic Rune","color":"white","hover_event":{"action":"show_text","value":"Drops from killing strays"}}, \
+    {"text":" ◇ [Arctic Rune]","color":"white","hover_event":{"action":"show_text","value":"Drops from killing strays"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#arc_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -169,7 +169,7 @@ tellraw @s ["", \
     {"score":{"name":"#arc_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Bioluminescent Rune","color":"aqua","hover_event":{"action":"show_text","value":"Drops from killing glow squids"}}, \
+    {"text":" ◇ [Bioluminescent Rune]","color":"aqua","hover_event":{"action":"show_text","value":"Drops from killing glow squids"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#bio_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -177,7 +177,7 @@ tellraw @s ["", \
     {"score":{"name":"#bio_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Blazing Rune","color":"gold","hover_event":{"action":"show_text","value":"Drops from killing blazes"}}, \
+    {"text":" ◇ [Blazing Rune]","color":"gold","hover_event":{"action":"show_text","value":"Drops from killing blazes"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#blz_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -185,7 +185,7 @@ tellraw @s ["", \
     {"score":{"name":"#blz_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Blossoming Rune","color":"light_purple","hover_event":{"action":"show_text","value":"Drops from chopping cherry logs"}}, \
+    {"text":" ◇ [Blossoming Rune]","color":"light_purple","hover_event":{"action":"show_text","value":"Drops from chopping cherry logs"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#blo_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -193,7 +193,7 @@ tellraw @s ["", \
     {"score":{"name":"#blo_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Charged Rune","color":"green","hover_event":{"action":"show_text","value":"Drops from killing charged creepers"}}, \
+    {"text":" ◇ [Charged Rune]","color":"green","hover_event":{"action":"show_text","value":"Drops from killing charged creepers"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#cha_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -201,7 +201,7 @@ tellraw @s ["", \
     {"score":{"name":"#cha_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Draconic Breath Rune","color":"dark_purple","hover_event":{"action":"show_text","value":"Drops from killing the Ender Dragon"}}, \
+    {"text":" ◇ [Draconic Breath Rune]","color":"dark_purple","hover_event":{"action":"show_text","value":"Drops from killing the Ender Dragon"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#dra_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -209,7 +209,7 @@ tellraw @s ["", \
     {"score":{"name":"#dra_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Engineering Rune","color":"red","hover_event":{"action":"show_text","value":"Drops from mining redstone ores"}}, \
+    {"text":" ◇ [Engineering Rune]","color":"red","hover_event":{"action":"show_text","value":"Drops from mining redstone ores"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#eng_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -217,9 +217,9 @@ tellraw @s ["", \
     {"score":{"name":"#eng_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ ","color":"white"}, \
+    {"text":" ◇ [","color":"white"}, \
     {"text":"Esoteric","color":"white","font":"minecraft:alt","hover_event":{"action":"show_text","value":"Drops from enchanting anything"}}, \
-    {"text":" Rune","color":"white","hover_event":{"action":"show_text","value":"Drops from enchanting anything"}}, \
+    {"text":" Rune]","color":"white","hover_event":{"action":"show_text","value":"Drops from enchanting anything"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#eso_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -227,7 +227,7 @@ tellraw @s ["", \
     {"score":{"name":"#eso_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Gilded Rune","color":"yellow","hover_event":{"action":"show_text","value":"Drops from bartering with piglins"}}, \
+    {"text":" ◇ [Gilded Rune]","color":"yellow","hover_event":{"action":"show_text","value":"Drops from bartering with piglins"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#gil_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -235,7 +235,7 @@ tellraw @s ["", \
     {"score":{"name":"#gil_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Loving Rune","color":"red","hover_event":{"action":"show_text","value":"Drops from breeding animals"}}, \
+    {"text":" ◇ [Loving Rune]","color":"red","hover_event":{"action":"show_text","value":"Drops from breeding animals"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#lov_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -243,7 +243,7 @@ tellraw @s ["", \
     {"score":{"name":"#lov_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Musical Rune","color":"dark_purple","hover_event":{"action":"show_text","value":"Drops from taming parrots"}}, \
+    {"text":" ◇ [Musical Rune]","color":"dark_purple","hover_event":{"action":"show_text","value":"Drops from taming parrots"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#mus_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -251,7 +251,7 @@ tellraw @s ["", \
     {"score":{"name":"#mus_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Resinous Rune","color":"#FF7200","hover_event":{"action":"show_text","value":"Drops from breaking creakings hearts"}}, \
+    {"text":" ◇ [Resinous Rune]","color":"#FF7200","hover_event":{"action":"show_text","value":"Drops from breaking creakings hearts"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#res_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -259,7 +259,7 @@ tellraw @s ["", \
     {"score":{"name":"#res_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Shrieking Rune","color":"dark_aqua","hover_event":{"action":"show_text","value":"Drops from killing wardens"}}, \
+    {"text":" ◇ [Shrieking Rune]","color":"dark_aqua","hover_event":{"action":"show_text","value":"Drops from killing wardens"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#shr_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -267,7 +267,7 @@ tellraw @s ["", \
     {"score":{"name":"#shr_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Smoking Rune","color":"gray","hover_event":{"action":"show_text","value":"Drops from safely harvesting honey"}}, \
+    {"text":" ◇ [Smoking Rune]","color":"gray","hover_event":{"action":"show_text","value":"Drops from safely harvesting honey"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#smo_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -275,7 +275,7 @@ tellraw @s ["", \
     {"score":{"name":"#smo_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Sunken Rune","color":"blue","hover_event":{"action":"show_text","value":"Drops from fishing"}}, \
+    {"text":" ◇ [Sunken Rune]","color":"blue","hover_event":{"action":"show_text","value":"Drops from fishing"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#sun_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \
@@ -283,7 +283,7 @@ tellraw @s ["", \
     {"score":{"name":"#sun_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
-    {"text":" ◇ Withered Rune","color":"dark_gray","hover_event":{"action":"show_text","value":"Drops from killing the Wither"}}, \
+    {"text":" ◇ [Withered Rune]","color":"dark_gray","hover_event":{"action":"show_text","value":"Drops from killing the Wither"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#wit_i","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":".","color":"#D4D4D4"}, \

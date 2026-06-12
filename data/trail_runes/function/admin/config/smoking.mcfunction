@@ -11,13 +11,14 @@ scoreboard players operation #dec_units rune_roll = #dec rune_roll
 scoreboard players operation #dec_units rune_roll %= #tr10 rune_chances
 
 tellraw @s ["", \
-    {"text":"\n ◇ Smoking Rune Drop Rates :\n","color":"gray"}, \
+    {"text":"\n ◇ Smoking Rune Drop Rates :","color":"gray"}, \
+    {"text":" (base: 2.00%)\n","color":"#7E888A"}, \
     \
-    {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"set\",amount:0,menu:\"trail_runes:admin/config/smoking\"}"}}, \
-    {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/config/smoking\"}"}}, \
-    {"text":"[1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"remove\",amount:100,menu:\"trail_runes:admin/config/smoking\"}"}}, \
-    {"text":"[0.1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"remove\",amount:10,menu:\"trail_runes:admin/config/smoking\"}"}}, \
-    {"text":"[0.01] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"remove\",amount:1,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"set\",amount:0,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"remove\",amount:100,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[0.1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"remove\",amount:10,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[0.01] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"remove\",amount:1,menu:\"trail_runes:admin/config/smoking\"}"}}, \
     \
     {"text":"- ","color":"red"}, \
     {"score":{"name":"#int","objective":"rune_roll"},"color":"white"}, \
@@ -27,9 +28,9 @@ tellraw @s ["", \
     {"text":"% ","color":"white"}, \
     \
     {"text":"+ ","color":"#3EAF3E"}, \
-    {"text":"[0.01] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"add\",amount:1,menu:\"trail_runes:admin/config/smoking\"}"}}, \
-    {"text":"[0.1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"add\",amount:10,menu:\"trail_runes:admin/config/smoking\"}"}}, \
-    {"text":"[1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"add\",amount:100,menu:\"trail_runes:admin/config/smoking\"}"}}, \
-    {"text":"[10] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"add\",amount:1000,menu:\"trail_runes:admin/config/smoking\"}"}}, \
-    {"text":"[100%]","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#smoking\",operation:\"set\",amount:10000,menu:\"trail_runes:admin/config/smoking\"}"}} \
+    {"text":"[0.01] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"add\",amount:1,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[0.1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"add\",amount:10,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"add\",amount:100,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[10] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"add\",amount:1000,menu:\"trail_runes:admin/config/smoking\"}"}}, \
+    {"text":"[100%]","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#smoking\",operation:\"set\",amount:10000,menu:\"trail_runes:admin/config/smoking\"}"}} \
 ]

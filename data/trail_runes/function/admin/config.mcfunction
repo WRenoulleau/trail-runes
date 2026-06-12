@@ -162,133 +162,149 @@ tellraw @s ["", \
     {"text":"\nTRAIL RUNES CONFIG MENU\n\n","bold":true,"underlined":true,"color":"#D4D4D4"}, \
     {"text":"Select a rune to change its drop rate :\n\n","color":"#B232B1"}, \
     \
-    {"text":" ◇ Arctic Rune","color":"white","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/arctic"}}, \
+    {"text":" ◇ [Arctic Rune]","color":"white","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/arctic"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#arc_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/arctic"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/arctic"}}, \
     {"score":{"name":"#arc_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/arctic"}}, \
     {"score":{"name":"#arc_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/arctic"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/arctic"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/arctic"}}, \
+    {"text":" (base: 1.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Bioluminescent Rune","color":"aqua","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/bioluminescent"}}, \
+    {"text":" ◇ [Bioluminescent Rune]","color":"aqua","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/bioluminescent"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#bio_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/bioluminescent"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/bioluminescent"}}, \
     {"score":{"name":"#bio_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/bioluminescent"}}, \
     {"score":{"name":"#bio_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/bioluminescent"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/bioluminescent"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/bioluminescent"}}, \
+    {"text":" (base: 2.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Blazing Rune","color":"gold","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blazing"}}, \
+    {"text":" ◇ [Blazing Rune]","color":"gold","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blazing"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#blz_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blazing"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blazing"}}, \
     {"score":{"name":"#blz_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blazing"}}, \
     {"score":{"name":"#blz_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blazing"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blazing"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blazing"}}, \
+    {"text":" (base: 1.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Blossoming Rune","color":"light_purple","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blossoming"}}, \
+    {"text":" ◇ [Blossoming Rune]","color":"light_purple","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blossoming"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#blo_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blossoming"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blossoming"}}, \
     {"score":{"name":"#blo_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blossoming"}}, \
     {"score":{"name":"#blo_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blossoming"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blossoming"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/blossoming"}}, \
+    {"text":" (base: 0.50%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Charged Rune","color":"green","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/charged"}}, \
+    {"text":" ◇ [Charged Rune]","color":"green","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/charged"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#cha_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/charged"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/charged"}}, \
     {"score":{"name":"#cha_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/charged"}}, \
     {"score":{"name":"#cha_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/charged"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/charged"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/charged"}}, \
+    {"text":" (base: 2.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Draconic Breath Rune","color":"dark_purple","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/draconic"}}, \
+    {"text":" ◇ [Draconic Breath Rune]","color":"dark_purple","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/draconic"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#dra_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/draconic"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/draconic"}}, \
     {"score":{"name":"#dra_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/draconic"}}, \
     {"score":{"name":"#dra_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/draconic"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/draconic"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/draconic"}}, \
+    {"text":" (base: 33.33%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Engineering Rune","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/engineering"}}, \
+    {"text":" ◇ [Engineering Rune]","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/engineering"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#eng_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/engineering"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/engineering"}}, \
     {"score":{"name":"#eng_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/engineering"}}, \
     {"score":{"name":"#eng_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/engineering"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/engineering"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/engineering"}}, \
+    {"text":" (base: 0.50%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ ","color":"white","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
+    {"text":" ◇ [","color":"white","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
     {"text":"Esoteric","color":"white","font":"minecraft:alt","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
-    {"text":" Rune","color":"white","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
+    {"text":" Rune]","color":"white","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#eso_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
     {"score":{"name":"#eso_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
     {"score":{"name":"#eso_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/esoteric"}}, \
+    {"text":" (base: 2.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Gilded Rune","color":"yellow","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/gilded"}}, \
+    {"text":" ◇ [Gilded Rune]","color":"yellow","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/gilded"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#gil_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/gilded"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/gilded"}}, \
     {"score":{"name":"#gil_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/gilded"}}, \
     {"score":{"name":"#gil_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/gilded"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/gilded"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/gilded"}}, \
+    {"text":" (base: 1.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Loving Rune","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/loving"}}, \
+    {"text":" ◇ [Loving Rune]","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/loving"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#lov_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/loving"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/loving"}}, \
     {"score":{"name":"#lov_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/loving"}}, \
     {"score":{"name":"#lov_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/loving"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/loving"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/loving"}}, \
+    {"text":" (base: 0.50%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Musical Rune","color":"dark_purple","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/musical"}}, \
+    {"text":" ◇ [Musical Rune]","color":"dark_purple","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/musical"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#mus_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/musical"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/musical"}}, \
     {"score":{"name":"#mus_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/musical"}}, \
     {"score":{"name":"#mus_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/musical"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/musical"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/musical"}}, \
+    {"text":" (base: 5.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Resinous Rune","color":"#FF7200","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/resinous"}}, \
+    {"text":" ◇ [Resinous Rune]","color":"#FF7200","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/resinous"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#res_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/resinous"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/resinous"}}, \
     {"score":{"name":"#res_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/resinous"}}, \
     {"score":{"name":"#res_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/resinous"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/resinous"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/resinous"}}, \
+    {"text":" (base: 10.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Shrieking Rune","color":"dark_aqua","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/shrieking"}}, \
+    {"text":" ◇ [Shrieking Rune]","color":"dark_aqua","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/shrieking"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#shr_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/shrieking"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/shrieking"}}, \
     {"score":{"name":"#shr_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/shrieking"}}, \
     {"score":{"name":"#shr_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/shrieking"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/shrieking"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/shrieking"}}, \
+    {"text":" (base: 20.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Smoking Rune","color":"gray","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/smoking"}}, \
+    {"text":" ◇ [Smoking Rune]","color":"gray","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/smoking"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#smo_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/smoking"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/smoking"}}, \
     {"score":{"name":"#smo_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/smoking"}}, \
     {"score":{"name":"#smo_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/smoking"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/smoking"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/smoking"}}, \
+    {"text":" (base: 2.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Sunken Rune","color":"blue","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/sunken"}}, \
+    {"text":" ◇ [Sunken Rune]","color":"blue","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/sunken"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#sun_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/sunken"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/sunken"}}, \
     {"score":{"name":"#sun_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/sunken"}}, \
     {"score":{"name":"#sun_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/sunken"}}, \
-    {"text":"%\n","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/sunken"}}, \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/sunken"}}, \
+    {"text":" (base: 2.00%)\n","color":"#7E888A"}, \
     \
-    {"text":" ◇ Withered Rune","color":"dark_gray","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/withered"}}, \
+    {"text":" ◇ [Withered Rune]","color":"dark_gray","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/withered"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#wit_i","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/withered"}}, \
     {"text":".","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/withered"}}, \
     {"score":{"name":"#wit_dt","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/withered"}}, \
     {"score":{"name":"#wit_du","objective":"rune_roll"},"color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/withered"}}, \
-    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/withered"}} \
+    {"text":"%","color":"#D4D4D4","click_event":{"action":"run_command","command":"/function trail_runes:admin/config/withered"}}, \
+    {"text":" (base: 20.00%)","color":"#7E888A"} \
 ]

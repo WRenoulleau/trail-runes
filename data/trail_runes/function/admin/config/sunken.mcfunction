@@ -11,13 +11,14 @@ scoreboard players operation #dec_units rune_roll = #dec rune_roll
 scoreboard players operation #dec_units rune_roll %= #tr10 rune_chances
 
 tellraw @s ["", \
-    {"text":"\n ◇ Sunken Rune Drop Rates :\n","color":"blue"}, \
+    {"text":"\n ◇ Sunken Rune Drop Rates :","color":"blue"}, \
+    {"text":" (base: 2.00%)\n","color":"#7E888A"}, \
     \
-    {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"set\",amount:0,menu:\"trail_runes:admin/config/sunken\"}"}}, \
-    {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/config/sunken\"}"}}, \
-    {"text":"[1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"remove\",amount:100,menu:\"trail_runes:admin/config/sunken\"}"}}, \
-    {"text":"[0.1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"remove\",amount:10,menu:\"trail_runes:admin/config/sunken\"}"}}, \
-    {"text":"[0.01] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"remove\",amount:1,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"set\",amount:0,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"remove\",amount:100,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[0.1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"remove\",amount:10,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[0.01] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"remove\",amount:1,menu:\"trail_runes:admin/config/sunken\"}"}}, \
     \
     {"text":"- ","color":"red"}, \
     {"score":{"name":"#int","objective":"rune_roll"},"color":"white"}, \
@@ -27,9 +28,9 @@ tellraw @s ["", \
     {"text":"% ","color":"white"}, \
     \
     {"text":"+ ","color":"#3EAF3E"}, \
-    {"text":"[0.01] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"add\",amount:1,menu:\"trail_runes:admin/config/sunken\"}"}}, \
-    {"text":"[0.1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"add\",amount:10,menu:\"trail_runes:admin/config/sunken\"}"}}, \
-    {"text":"[1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"add\",amount:100,menu:\"trail_runes:admin/config/sunken\"}"}}, \
-    {"text":"[10] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"add\",amount:1000,menu:\"trail_runes:admin/config/sunken\"}"}}, \
-    {"text":"[100%]","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#sunken\",operation:\"set\",amount:10000,menu:\"trail_runes:admin/config/sunken\"}"}} \
+    {"text":"[0.01] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"add\",amount:1,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[0.1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"add\",amount:10,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"add\",amount:100,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[10] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"add\",amount:1000,menu:\"trail_runes:admin/config/sunken\"}"}}, \
+    {"text":"[100%]","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#sunken\",operation:\"set\",amount:10000,menu:\"trail_runes:admin/config/sunken\"}"}} \
 ]

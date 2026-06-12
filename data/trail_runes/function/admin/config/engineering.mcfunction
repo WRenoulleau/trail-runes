@@ -11,13 +11,14 @@ scoreboard players operation #dec_units rune_roll = #dec rune_roll
 scoreboard players operation #dec_units rune_roll %= #tr10 rune_chances
 
 tellraw @s ["", \
-    {"text":"\n ◇ Engineering Rune Drop Rates :\n","color":"red"}, \
+    {"text":"\n ◇ Engineering Rune Drop Rates :","color":"red"}, \
+    {"text":" (base: 0.50%)\n","color":"#7E888A"}, \
     \
-    {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"set\",amount:0,menu:\"trail_runes:admin/config/engineering\"}"}}, \
-    {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/config/engineering\"}"}}, \
-    {"text":"[1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"remove\",amount:100,menu:\"trail_runes:admin/config/engineering\"}"}}, \
-    {"text":"[0.1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"remove\",amount:10,menu:\"trail_runes:admin/config/engineering\"}"}}, \
-    {"text":"[0.01] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"remove\",amount:1,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[0%] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"set\",amount:0,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[10] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"remove\",amount:1000,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"remove\",amount:100,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[0.1] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"remove\",amount:10,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[0.01] ","color":"red","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"remove\",amount:1,menu:\"trail_runes:admin/config/engineering\"}"}}, \
     \
     {"text":"- ","color":"red"}, \
     {"score":{"name":"#int","objective":"rune_roll"},"color":"white"}, \
@@ -27,9 +28,9 @@ tellraw @s ["", \
     {"text":"% ","color":"white"}, \
     \
     {"text":"+ ","color":"#3EAF3E"}, \
-    {"text":"[0.01] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"add\",amount:1,menu:\"trail_runes:admin/config/engineering\"}"}}, \
-    {"text":"[0.1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"add\",amount:10,menu:\"trail_runes:admin/config/engineering\"}"}}, \
-    {"text":"[1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"add\",amount:100,menu:\"trail_runes:admin/config/engineering\"}"}}, \
-    {"text":"[10] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"add\",amount:1000,menu:\"trail_runes:admin/config/engineering\"}"}}, \
-    {"text":"[100%]","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify {rune:\"#engineering\",operation:\"set\",amount:10000,menu:\"trail_runes:admin/config/engineering\"}"}} \
+    {"text":"[0.01] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"add\",amount:1,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[0.1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"add\",amount:10,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[1] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"add\",amount:100,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[10] ","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"add\",amount:1000,menu:\"trail_runes:admin/config/engineering\"}"}}, \
+    {"text":"[100%]","color":"#3EAF3E","click_event":{"action":"run_command","command":"/function trail_runes:admin/modify_drop_rate {rune:\"#engineering\",operation:\"set\",amount:10000,menu:\"trail_runes:admin/config/engineering\"}"}} \
 ]
