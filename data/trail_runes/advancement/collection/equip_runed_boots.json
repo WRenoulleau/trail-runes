@@ -1,0 +1,42 @@
+{
+  "parent": "trail_runes:collection/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots",
+      "components": {
+        "minecraft:custom_data": { "has_rune": true }
+      }
+    },
+    "title": {
+      "text": "It's Magic!"
+    },
+    "description": {
+      "text": "Equip any boots bound with a rune.\n\n💡 You can retrieve the rune at any time by dropping your boots onto a chiseled tuff block, then having an anvil fall on it."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "equipped_runed_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "armor.feet": {
+                  "predicates": {
+                    "minecraft:custom_data": "{has_rune:true}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

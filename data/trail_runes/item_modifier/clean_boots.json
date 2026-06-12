@@ -1,7 +1,7 @@
 [
   {
     "function": "minecraft:set_custom_data",
-    "tag": "{has_rune:false}"
+    "tag": "{has_rune:false, rune_id:null}"
   },
   {
     "function": "minecraft:set_components",

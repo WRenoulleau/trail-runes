@@ -5,6 +5,8 @@ scoreboard players enable @a runes_list
 execute as @a[scores={runes_list=1..}] run function trail_runes:runes/list
 execute as @a[scores={runes_list=1..}] run scoreboard players reset @s runes_list
 
+execute as @e[type=item] if items entity @s contents *[custom_data~{has_rune:true}] at @s if block ~ ~-0.5 ~ minecraft:chiseled_tuff if block ~ ~ ~ #minecraft:anvil run function trail_runes:api/anvil_extract
+
 execute as @a[scores={rune_replace=1}] run function trail_runes:runes/sunken/force_apply
 execute as @a[scores={rune_replace=2}] run function trail_runes:runes/blazing/force_apply
 execute as @a[scores={rune_replace=3}] run function trail_runes:runes/shrieking/force_apply
