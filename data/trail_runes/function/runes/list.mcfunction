@@ -201,6 +201,21 @@ tellraw @s ["", \
     {"score":{"name":"#cha_du","objective":"rune_roll"},"color":"#D4D4D4"}, \
     {"text":"%\n","color":"#D4D4D4"}, \
     \
+    {"text":" ◇ ", "color": "#ff0000","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"[C", "color": "#ff0000","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"h", "color": "#ff7700","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"r", "color": "#ffee00","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"o", "color": "#99ff00","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"m", "color": "#26ff00","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"a", "color": "#00ff51","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"t", "color": "#00ffc8","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"i", "color": "#00c3ff","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"c ", "color": "#004cff","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"R", "color": "#2a00ff","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"u", "color": "#9d00ff","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"n", "color": "#ff00ea","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    {"text":"e]\n", "color": "#ff0073","hover_event":{"action":"show_text","value":"Granted upon completing the entire collection"}}, \
+    \
     {"text":" ◇ [Draconic Breath Rune]","color":"dark_purple","hover_event":{"action":"show_text","value":"Drops from killing the Ender Dragon"}}, \
     {"text":" - ","color":"#7E888A"}, \
     {"score":{"name":"#dra_i","objective":"rune_roll"},"color":"#D4D4D4"}, \

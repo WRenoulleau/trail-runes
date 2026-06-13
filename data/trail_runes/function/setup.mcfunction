@@ -1,5 +1,7 @@
 scoreboard objectives add runes_list trigger
 
+scoreboard objectives add rune_rgb dummy
+
 # Reward Objectives
 scoreboard objectives add mine_cherry_log mined:cherry_log
 scoreboard objectives add mine_cherry_wood mined:cherry_wood
@@ -13,6 +15,7 @@ scoreboard objectives add rune_roll dummy
 scoreboard objectives add rune_config trigger
 
 scoreboard players set #tr100 rune_chances 100
+scoreboard players set #tr35 rune_chances 35
 scoreboard players set #tr10 rune_chances 10
 
 # Default Rates

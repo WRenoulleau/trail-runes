@@ -3,6 +3,7 @@ execute at @s if items entity @s armor.feet *[custom_data~{rune_id:"bioluminesce
 execute at @s if items entity @s armor.feet *[custom_data~{rune_id:"blazing"}] run loot spawn ~ ~ ~ loot trail_runes:runes/blazing
 execute at @s if items entity @s armor.feet *[custom_data~{rune_id:"blossoming"}] run loot spawn ~ ~ ~ loot trail_runes:runes/blossoming
 execute at @s if items entity @s armor.feet *[custom_data~{rune_id:"charged"}] run loot spawn ~ ~ ~ loot trail_runes:runes/charged
+execute at @s if items entity @s armor.feet *[custom_data~{rune_id:"chromatic"}] run loot spawn ~ ~ ~ loot trail_runes:runes/chromatic
 execute at @s if items entity @s armor.feet *[custom_data~{rune_id:"draconic"}] run loot spawn ~ ~ ~ loot trail_runes:runes/draconic
 execute at @s if items entity @s armor.feet *[custom_data~{rune_id:"engineering"}] run loot spawn ~ ~ ~ loot trail_runes:runes/engineering
 execute at @s if items entity @s armor.feet *[custom_data~{rune_id:"esoteric"}] run loot spawn ~ ~ ~ loot trail_runes:runes/esoteric

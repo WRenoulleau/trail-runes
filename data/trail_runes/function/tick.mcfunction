@@ -76,3 +76,6 @@ execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"charged"}] a
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"withered"}] at @s run particle minecraft:smoke ~ ~0.05 ~ 0.2 0.1 0.2 0 4 normal @a
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"withered"}] at @s run particle minecraft:entity_effect{color:[0, 0, 0, 0.7]} ~ ~ ~ 0.15 0 0.15 0.001 1 normal @a
 execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"withered"}] at @s run particle minecraft:entity_effect{color:[0.1, 0.1, 0.1, 0.7]} ~ ~ ~ 0.15 0 0.15 0.001 1 normal @a
+
+# Chromatic Rune
+execute as @a if items entity @s armor.feet *[custom_data~{rune_id:"chromatic"}] at @s run function trail_runes:runes/chromatic/rgb

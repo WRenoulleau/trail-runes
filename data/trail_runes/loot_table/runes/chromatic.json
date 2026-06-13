@@ -1,0 +1,184 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "rune": "chromatic"
+                },
+                "minecraft:item_name": [
+                  {
+                    "text": "C",
+                    "color": "#ff0000",
+                    "italic": false
+                  },
+                  {
+                    "text": "h",
+                    "color": "#ff7700",
+                    "italic": false
+                  },
+                  {
+                    "text": "r",
+                    "color": "#ffee00",
+                    "italic": false
+                  },
+                  {
+                    "text": "o",
+                    "color": "#99ff00",
+                    "italic": false
+                  },
+                  {
+                    "text": "m",
+                    "color": "#26ff00",
+                    "italic": false
+                  },
+                  {
+                    "text": "a",
+                    "color": "#00ff51",
+                    "italic": false
+                  },
+                  {
+                    "text": "t",
+                    "color": "#00ffc8",
+                    "italic": false
+                  },
+                  {
+                    "text": "i",
+                    "color": "#00c3ff",
+                    "italic": false
+                  },
+                  {
+                    "text": "c ",
+                    "color": "#004cff",
+                    "italic": false
+                  },
+                  {
+                    "text": "R",
+                    "color": "#2a00ff",
+                    "italic": false
+                  },
+                  {
+                    "text": "u",
+                    "color": "#9d00ff",
+                    "italic": false
+                  },
+                  {
+                    "text": "n",
+                    "color": "#ff00ea",
+                    "italic": false
+                  },
+                  {
+                    "text": "e",
+                    "color": "#ff0073",
+                    "italic": false
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "text": "Right click in the air to use",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Particles: ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": " ❄ R",
+                      "color": "#ff0000",
+                      "italic": false
+                    },{
+                      "text": "a",
+                      "color": "#ff8c00",
+                      "italic": false
+                    },{
+                      "text": "i",
+                      "color": "#e6ff00",
+                      "italic": false
+                    },{
+                      "text": "n",
+                      "color": "#59ff00",
+                      "italic": false
+                    },{
+                      "text": "b",
+                      "color": "#00ff2f",
+                      "italic": false
+                    },{
+                      "text": "o",
+                      "color": "#00ffbb",
+                      "italic": false
+                    },{
+                      "text": "w ",
+                      "color": "#00b7ff",
+                      "italic": false
+                    },{
+                      "text": "D",
+                      "color": "#002bff",
+                      "italic": false
+                    },{
+                      "text": "u",
+                      "color": "#5e00ff",
+                      "italic": false
+                    },{
+                      "text": "s",
+                      "color": "#ea00ff",
+                      "italic": false
+                    },{
+                      "text": "t",
+                      "color": "#ff0088",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Applies to:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " Boots",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0aW1lc3RhbXAiOjE3ODEzNzA3MzAsInByb2ZpbGVJZCI6ImM2MjgzYjE0MzVjNjRhMjk5NDIyNjMyNzI2MGM0NjFjIiwicHJvZmlsZU5hbWUiOiJOZWVkQ29vbGVyU2hvZXMiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FiNDBhOTIzMGY4ODdkMWExY2FkNTc4ZjE4ZWM0YWYwYzFhYTFiOTM2MzQxMzgyYjg2NGQyZjI4ZGUwOWE5YjgifX19"
+                    }
+                  ]
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.0,
+                  "animation": "none",
+                  "has_consume_particles": false,
+                  "sound": "minecraft:block.bubble_column.bubble_pop"
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0.0,
+                  "can_always_eat": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

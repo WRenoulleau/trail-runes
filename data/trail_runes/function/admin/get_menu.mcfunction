@@ -11,6 +11,21 @@ tellraw @s ["", \
     \
     {"text":" ◇ [Charged Rune]\n","color":"green","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/charged"}}, \
     \
+    {"text":" ◇ ", "color": "#ff0000","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"[C", "color": "#ff0000","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"h", "color": "#ff7700","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"r", "color": "#ffee00","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"o", "color": "#99ff00","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"m", "color": "#26ff00","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"a", "color": "#00ff51","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"t", "color": "#00ffc8","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"i", "color": "#00c3ff","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"c ", "color": "#004cff","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"R", "color": "#2a00ff","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"u", "color": "#9d00ff","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"n", "color": "#ff00ea","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    {"text":"e]\n", "color": "#ff0073","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/chromatic"}}, \
+    \
     {"text":" ◇ [Draconic Breath Rune]\n","color":"dark_purple","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/draconic"}}, \
     \
     {"text":" ◇ [Engineering Rune]\n","color":"red","click_event":{"action":"run_command","command":"/loot give @s loot trail_runes:runes/engineering"}}, \

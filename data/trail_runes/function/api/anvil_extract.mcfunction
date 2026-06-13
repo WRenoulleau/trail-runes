@@ -5,6 +5,7 @@ execute if items entity @s contents *[custom_data~{rune_id:"bioluminescent"}] ru
 execute if items entity @s contents *[custom_data~{rune_id:"blazing"}] run loot spawn ~ ~ ~ loot trail_runes:runes/blazing
 execute if items entity @s contents *[custom_data~{rune_id:"blossoming"}] run loot spawn ~ ~ ~ loot trail_runes:runes/blossoming
 execute if items entity @s contents *[custom_data~{rune_id:"charged"}] run loot spawn ~ ~ ~ loot trail_runes:runes/charged
+execute if items entity @s contents *[custom_data~{rune_id:"chromatic"}] run loot spawn ~ ~ ~ loot trail_runes:runes/chromatic
 execute if items entity @s contents *[custom_data~{rune_id:"draconic"}] run loot spawn ~ ~ ~ loot trail_runes:runes/draconic
 execute if items entity @s contents *[custom_data~{rune_id:"engineering"}] run loot spawn ~ ~ ~ loot trail_runes:runes/engineering
 execute if items entity @s contents *[custom_data~{rune_id:"esoteric"}] run loot spawn ~ ~ ~ loot trail_runes:runes/esoteric

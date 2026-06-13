@@ -3,6 +3,7 @@ loot give @s loot trail_runes:runes/bioluminescent
 loot give @s loot trail_runes:runes/blazing
 loot give @s loot trail_runes:runes/blossoming
 loot give @s loot trail_runes:runes/charged
+loot give @s loot trail_runes:runes/chromatic
 loot give @s loot trail_runes:runes/draconic
 loot give @s loot trail_runes:runes/engineering
 loot give @s loot trail_runes:runes/esoteric
