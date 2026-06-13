@@ -1,6 +1,14 @@
 {
   "pack": {
-    "pack_format": 48,
-    "description": "Trail Runes Datapack (1.21.11)"
+    "author": "Shuukyo",
+    "min_format": [94,1],
+    "max_format": [94,1],
+    "description": [
+      "",
+      {"text":"Trail Runes","bold":true,"underlined":true,"color":"dark_gray"},
+      {"text":" (1.21.11)","color":"gray"},
+      {"text":"\n"},
+      {"text":"By Shuukyo","color":"gray"}
+    ]
   }
 }
