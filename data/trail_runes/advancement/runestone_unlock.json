@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_ingot"
+          }
+        ]
+      }
+    },
+    "has_tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_tuff"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite",
+      "has_tuff"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "trail_runes:runestone"
+    ]
+  }
+}

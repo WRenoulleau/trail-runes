@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["000", "010", "000"],
+  "key": {
+    "0": "minecraft:polished_tuff",
+    "1": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "runestone": true
+      },
+      "minecraft:item_name": {
+        "text": "Runestone",
+        "color": "white",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Can be combined with a rune to duplicate it",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0aW1lc3RhbXAiOjE3ODEzNzEzNjAsInByb2ZpbGVJZCI6ImM2MjgzYjE0MzVjNjRhMjk5NDIyNjMyNzI2MGM0NjFjIiwicHJvZmlsZU5hbWUiOiJOZWVkQ29vbGVyU2hvZXMiLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4YmNjYzUyZTZiOWUxMDJkZTNmYmFlY2NmZTcyNzJiMjc4N2JmNzIyYjI3NzRiNzQ0MDc0MWNmY2NhNmNlM2IifX19"
+          }
+        ]
+      }
+    }
+  },
+  "show_notification": true
+}
